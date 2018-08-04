@@ -1,0 +1,36 @@
+{
+  "name": "groll-cli",
+  "version": "1.0.5",
+  "description": "A CLI tools, Using gulp and rollup.",
+  "main": "bin/groll.js",
+  "bin": {
+    "groll-cli": "bin/groll-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pxy0809/groll-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "Gulp",
+    "Rollup"
+  ],
+  "author": "pxy0809",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "commander": "^2.16.0",
+    "download": "^7.1.0",
+    "ejs": "^2.6.1",
+    "inquirer": "^6.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.0.0",
+    "user-home": "^2.0.0"
+  }
+}
