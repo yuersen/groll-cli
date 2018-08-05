@@ -7,6 +7,7 @@
 1. 使用 `commander` 创建相关命令，`inquirer` 收集用户输入信息；
 2. 使用 `download` 从 github 下载相关模板文件；
 3. 使用 `metalsmith` 解析模板文件并在指定目录下创建；
+4. 为了方便调试，可将本地创建的脚手架直接 `npm install -g` 安装，然后通过 `npm link` 建立关联关系。
 
 ## 安装
 
