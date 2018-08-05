@@ -31,6 +31,7 @@
     "inquirer": "^6.0.0",
     "metalsmith": "^2.3.0",
     "ora": "^3.0.0",
+    "semver": "^5.5.0",
     "user-home": "^2.0.0"
   }
 }
